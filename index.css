@@ -1,0 +1,747 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+/* Container styling */
+.marquee-container {
+    width: 100vw;
+    height: 8vh; /* Adjust for multiple lines */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37 105 63);
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid transparent;
+  }
+
+  /* Inner content styling */
+  .marquee-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Styling for individual lines */
+  .line {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+ }
+ 
+
+ /* navbar styling */
+.navbar{
+    height: 130px;
+    width: 100vw;
+    background-color: #ffc900;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding-top: 55px;
+    
+}
+.navigation {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+option{
+  background-color:  #ffc900;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid #ffc900;
+  color: gray;
+}
+select:focus{
+  border: 1px solid #ffc900;
+}
+select:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.image{
+  flex: 1;
+ padding-left: 50px;
+}
+.addi{
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  width: 25%;
+  padding-right: 50px;
+}
+.addi i{
+  padding: 15px;
+}
+.navigation a{
+  text-decoration: none;
+  color: black;
+  font-weight:550;
+  font-size: 17px;
+  font-family: 'Times New Roman';
+  padding-left: 30px;
+}
+.slideshow {
+  width: 100vw;
+  height: 85vh;
+  background-image: url(./images/varadhi_farms_ghee_-v1_-_web_final.webp);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.main{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.titlecon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.title2{
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 800;
+}
+.link1{
+  background-color: #ffc900 ;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.link1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.dis1{
+  font-size: 18px;
+}
+.bestsel{
+  margin-top: 35px;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.items img{
+ width: 330px;
+ height: 330px;
+ margin-right: 30px;
+ border-radius: 10px 10px;
+}
+.row1{
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.row2{
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.high2{
+  color: rgb(253, 72, 72);
+  font-size: 17px;
+}
+.itemname{
+  font-weight: bold;
+  font-size: 17px;
+}
+.high3{
+  color: rgb(135, 135, 135);
+  font-size: 17px;
+}
+.Viewallproducts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.Viewallproducts a{
+  background-color: #ffc900 ;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+.explore{
+  background-color:  rgb(37 105 63);
+}
+.explorehead{
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 80px;
+}
+.exploremain{
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 800;
+  color: white;
+}
+.dicexpl{
+  font-size: 18px;
+  color: white;
+}
+.excol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+.eximg1{
+ width: 330px;
+ height: 330px;
+ border-radius: 5px;
+ background-image: url(./images/explore/vaaradhi_farms.webp);
+ background-position: center;
+ background-size: cover;
+ color: white;
+ font-family: Arial;
+ font-weight: 800;
+ font-size: 27px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: end;
+ text-shadow: 0px 3px 4px black;
+}
+.eximg2{
+  width: 330px;
+  height: 330px;
+  border-radius: 5px;
+  background-image: url(./images/explore/sweet_and_snacks.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+ font-family: Arial;
+ font-weight: 800;
+ font-size: 27px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: end;
+ text-shadow: 0px 3px 4px black;
+  
+ }
+ .eximg3{
+  width: 330px;
+  height: 330px;
+  border-radius: 5px;
+  background-image: url(./images/explore/pickle_collection_image_-_v1.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+ font-family: Arial;
+ font-weight: 800;
+ font-size: 27px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: end;
+ text-shadow: 0px 3px 4px black;
+ }
+ .eximg4{
+  width: 330px;
+  height: 330px;
+  border-radius: 5px;
+  background-image: url(./images/explore/ecommified_Front-facing_close-up_eye-level_shot_of_a_plain_flat_22ecbd0e-a868-400f-851a-1b171609766c.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-shadow: 0px 3px 4px black;
+ }
+.eximg1:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.eximg2:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.eximg3:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.eximg4:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+
+.Viewallproductse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.Viewallproductse a{
+  background-color: #ffc900 ;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+.types{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.column1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.column2{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.imgtype1{
+  height: 270px;
+  width: 650px;
+  border-radius: 10px;
+  background-image: url(./images/explore/sweetner_and_salts_collection_image_varadhi_farms.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-shadow: 0px 3px 4px black;
+}
+.imgtype1:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.imgtype2:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.imgtype3:hover{
+  scale: 1.1;
+  box-shadow: 0px 3px 4px black;
+}
+.imgtype2{
+  height: 270px;
+  width: 650px;
+  border-radius: 10px;
+  background-image: url(./images/explore/seeds_collection_image_varadhi_farms-1.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-shadow: 0px 3px 4px black;
+
+}
+.imgtype3{
+  height: 570px;
+  width: 650px;
+  border-radius: 10px;
+  background-image: url(./images/explore/Varadhi_farms_v1_oil_section_image-3.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-shadow: 0px 3px 4px black;
+}
+.scroller{
+  background-color: rgb(37 105 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.icon-container{
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.value{
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.imgsec2{
+  height: 570px;
+  width: 370px;
+  border-radius: 10px;
+  background-image: url(./images/explore/Screenshot\ 2025-03-01\ 203038.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+  margin-top: 50px;
+  
+}
+.imgsec1{
+  height: 570px;
+  width: 370px;
+  border-radius: 10px;
+  background-image: url(./images/explore/Screenshot\ 2025-03-01\ 203001.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.colval1{
+  flex: content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  margin: 40px;
+}
+.smtxt{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.m2{
+  font-size: 220px;
+}
+.b3{
+  font-size: 30px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.addcart{
+  display: flex;
+  align-items:start;
+  justify-content:baseline;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 550px;
+
+}
+.proimg{
+  height: 550px;
+  width: 550px;
+  border-radius: 10px;
+  flex: 1;
+}
+.colpro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex:2;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  height: 550px;
+}
+.prohed{
+  font-size: 47px;
+  font-weight: 900;
+  font-family: Arial;
+  text-align: start;
+}
+.proprice{
+  font-size: 24px;
+}
+.quan{
+  font-size: 18px;
+  color: gray;
+}
+.hrl{
+  color: gray;
+}
+.Ad2cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.Ad2cart a{
+  background-color: rgb(37 105 63) ;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 785px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.Quantitysel{
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 22px;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.quansel{
+  font-size: 20px;
+}
+.quansel1{
+  font-size: 25px;
+  font-weight: lighter;
+}
+.quansel2{
+  font-size: 20px;
+  font-weight: 900;
+}
+.prese{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.vid1{
+  flex: 1;
+}
+.aboutus{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  background-color: #ffc900;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  margin-right: 50px;
+}
+.vid1em{
+  border-radius: 10px;
+}
+.prohed2{
+  font-size: 47px;
+  font-weight: 900;
+  font-family: Arial;
+  margin-bottom: 30px;
+}
+.prodis{
+  text-align: center;
+  font-size: 18px;
+  margin-right: 80px;
+  margin-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(58, 58, 58);
+}
+.testi{
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 30px;
+  margin-bottom: 110px;
+}
+.testhed{
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgb(28, 28, 28);
+}
+.testire{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.testrev{
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 470px;
+  height: 200px;
+  padding-top:30px ;
+  padding:30px;
+  border-radius: 10PX;
+
+}
+.revdis{
+  font-size: 17px;
+}
+.stars{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.stars i{
+  color: gold;
+}
+.faq{
+  display: flex;
+  padding-top: 30px;
+  background-color: rgb(37 105 63);
+  padding-bottom: 90px;
+}
+.faqhed{
+  flex: 1;
+  margin-left: 50px;
+}
+
+.faqsec{
+  flex: 1;
+  background-color: #ffc900;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+.faqmainhead{
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.faqmaindisc{
+  font-size: 18px;
+  font-weight: 17px;
+}
+.faqs{
+  flex: 1;
+}
+
+.faq1,.faq2{
+  border-bottom: 1px solid rgba(95, 90, 90, 0.455);
+}
+.bort{
+  border-top: 1px solid rgba(95, 90, 90, 0.455);
+}
+.answe{
+  height: 0;
+  overflow: hidden;
+}
+.answe:active{
+  overflow: visible;
+  max-height: 200px;
+}
+.ques{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.soc{
+ margin-bottom: 80px;
+}
+.soched{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 33px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+blockquote{
+  height: 250px;
+  width: 400px;
+}
+.social{
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.footerwhole{
+  background-color: #ffc900;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.footer{
+  display: flex;
+}
+.list{
+  width: 350px;
+  font-size: 18px;
+}
+dd{
+  color: #545151;
+  padding-bottom: 25px;
+}
+.copywr{
+  color: #545151;
+}
+.cwrite{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding-left: 50px;
+  padding-top: 30px;
+  height: 100px;
+}
